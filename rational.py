@@ -5,6 +5,8 @@ class Rational:
            :param denominator: the bottom number of the fraction.
 
            :returns: None"""
+        if denominator == 0:
+            raise ValueError
         self._numerator = numerator
         """The top number of the fraction"""
         self._denominator = denominator
