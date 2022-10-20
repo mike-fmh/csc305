@@ -34,4 +34,3 @@ if __name__ == '__main__':
     print("Test rational12 equals another Rational(1,2):", "passed" if rational12.equals(Rational(1, 2)) else "failed")
     print("Test rational12 not equals rational23:", "passed" if not rational12.equals(rational23) else "failed")
     print("Test rational12 < rational23 as floats:", "passed" if rational12.as_float() < rational23.as_float() else "failed")
-    
